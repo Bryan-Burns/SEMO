@@ -1,0 +1,13 @@
+package com.example.closelab8;
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
+
+public class cLab8Controller {
+    @FXML
+    private Label welcomeText;
+
+    @FXML
+    protected void onHelloButtonClick() {
+        welcomeText.setText("Welcome to JavaFX Application!");
+    }
+}
