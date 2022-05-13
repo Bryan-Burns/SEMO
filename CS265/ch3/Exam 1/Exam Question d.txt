@@ -1,0 +1,1 @@
+In Java, when you return a Date object, you are actually giving the user the original Date object instead of a cloned one. That is why you should not get or set a Date object in a class, because it is insecure to give the user the original value.
